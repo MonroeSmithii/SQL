@@ -1,0 +1,19 @@
+CREATE TABLE Posters (id INTEGER PRIMARY KEY, name TEXT, genre TEXT, quantity INTEGER, price INTEGER, framed TEXT, size TEXT);
+
+
+INSERT INTO Posters VALUES (1, "Baby Yoda", "SciFi", 5, 15.33, "Y", "15x15");
+INSERT INTO Posters VALUES (2, "The Batman", "Comic Book", 1, 30.25, "Y", "24x36");
+INSERT INTO Posters VALUES (3, "Mando", "SciFi", 10, 20.99, "Y", "15x15");
+INSERT INTO Posters VALUES (4, "Catwoman", "Comic Book", 5, 15.50, "N", "24x24");
+INSERT INTO Posters VALUES (5, "Batman 1989", "Comic Book", 10, 30.15, "Y", "24x48");
+INSERT INTO Posters VALUES (6, "Naruto", "Manga", 15, 15.20, "N", "20x20");
+INSERT INTO Posters VALUES (7, "ELF", "Holiday", 10, 10.15, "N", "20x20");
+INSERT INTO Posters VALUES (8, "SANTA", "Holiday", 5, 5.25, "N", "24x36");
+INSERT INTO Posters VALUES (9, "Jack S.", "Holiday", 15, 25.75, "Y", "24x36");
+INSERT INTO Posters VALUES (10, "Bleach", "Manga", 15, 25.33, "N", "24x24");
+INSERT INTO Posters VALUES (11, "Rukia", "Manga", 1, 50.15, "Y", "24x36");
+INSERT INTO Posters VALUES (12, "WarCraft", "Game", 15, 10.99, "N", "12x24");
+INSERT INTO Posters VALUES (13, "Ahsoka", "SciFi", 20, 50.99, "Y", "24x48");
+INSERT INTO Posters VALUES (14, "Bluey", "Kids", 100, 5.33, "N", "20x20");
+INSERT INTO Posters VALUES (15, "Mario", "Game", 5, 10.45, "N", "24x24");
+SELECT * FROM Posters WHERE quantity > 10 ORDER BY Price ;
