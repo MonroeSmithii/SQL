@@ -1,0 +1,10 @@
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, Author TEXT, Year INTEGER, Rating INTEGER);
+
+
+INSERT INTO Books VALUES (1, "Bible", "God", 2019, 5);
+INSERT INTO Books VALUES (2, "Conan the Usurper", "Robert E. Howard", 1968, 5);
+INSERT INTO Books VALUES (3, "Horton Hears a Who", "Dr. Zeuss", 1965, 5);
+INSERT INTO Books VALUES (10, "Yertle Turtle", "Dr. Zeuss", 1969, 5);
+INSERT INTO Books VALUES (27, "The Raven", "Edgar A. Poe", 1840, 5);
+INSERT INTO Books VALUES (13, "Persuasion", "Bronte", 1860, 2);
+SELECT * FROM Books;
